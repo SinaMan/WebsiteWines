@@ -12,11 +12,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Custom CSS -->
-		<link href="includes/css/styles_new.css" rel="stylesheet">
+		<link href="css/styles_new.css" rel="stylesheet">
 	
 	</head>
 	<body class="background">
@@ -198,12 +198,13 @@
 			</div>
 		</footer>
 
-	
-
-		<!-- All Javascript at the bottom of the page for faster page loading -->
-		<script src="includes/js/jquery.js"></script>
-			
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+		
 		<!-- Bootstrap JS -->
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
