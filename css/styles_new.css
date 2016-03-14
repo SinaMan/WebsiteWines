@@ -1,20 +1,48 @@
-#contact-sidebar {
-    background: #e2e0d7;
-}
-contact.htmlmedia="all"
-#contact-sidebar {
-    position: relative;
-    width: 200px;
-    float: left;
-    padding: 20px 10px 20px 10px;
-    -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-    -moz-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-    -o-box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-    box-shadow: 2px 2px 0px rgba(0,0,0,.2);
-}
-	div.center-stack div.customer-reviews {
-    margin-bottom: 40px;
-}
+/* --------------------------------------
+   Add Fonts
+   -------------------------------------- */
+   
+  	@font-face {
+		font-family: 'brankovicregular';
+		src: url('../fonts/fontsbrankovic-webfont.eot');
+		src: url('../fonts/brankovic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brankovic-webfont.woff') format('woff'),
+		url('../fonts/brankovic-webfont.ttf') format('truetype'),
+		url('../fonts/brankovic-webfont.svg#brankovicregular') format('sv');
+	}
+	
+	
+	 @font-face {
+		font-family: 'ClearSans-Regular';
+		src: url('../fonts/ClearSans-Regular.eot');
+		src: url('../fonts/ClearSans-Regular.woff') format('woff'),
+         	url('../fonts/ClearSans-Regular.ttf') format('truetype');
+	}
+	
+	@font-face {
+		font-family: 'Vonique';
+		src: url('../fonts/Vonique 64.ttf') format('truetype');
+	}
+	
+	@font-face {
+		font-family: 'RECHTMAN';
+		src: url('../fonts/RECHTMAN.ttf') format('truetype');
+	}
+	
+	@font-face {
+		font-family: 'Amperzand';
+		src: url('../fonts/Amperzand.ttf') format('truetype');
+	}
+	
+	@font-face {
+		font-family: 'Calligraffiti';
+		src: url('../fonts/Calligraffiti.ttf') format('truetype');
+	}
+
+/* --------------------------------------
+  Images and text format
+   -------------------------------------- */
+	
 	.fleft {
 		float: left;
 		margin-right: 20px;
@@ -22,6 +50,7 @@ contact.htmlmedia="all"
 		margin-bottom: 0px;
 		border: 1px solid #af293c;
 	}
+	
 	.img_inner {
 		width:200px;
 		height:130px;
@@ -30,7 +59,6 @@ contact.htmlmedia="all"
 		margin-bottom: 28px;
 		position: relative;
 	}
-	
 	
 	.main-text{
 		font-family:Palatino,Tahoma, Geneva, sans-serif;
@@ -165,277 +193,6 @@ contact.htmlmedia="all"
 		font-size: 18px;
 		color: black;
 	}
-
-/* --------------------------------------
-   Contact Form 
-   -------------------------------------- */
-	.media-heading {
-		padding-right: 90px;
-		padding-left: 10px;
-		color:#D1A68B;
-		text-align:center;
-	}
-	
-	
-/* --------------------------------------
-   Moreinfo
-   -------------------------------------- */
-	.nav>li>a {
-
- 		line-height: 28px;
-	}
-	
-	.navbar-inverse {
-  		background: url(../../images/header_bg9.png) 0 0 repeat-x rgba(234, 232, 230, 0);
-		z-index: 999;
-	}
-/* --------------------------------------
-   Create Fonts
-   -------------------------------------- */
-   
-  @font-face {
-		font-family: 'brankovicregular';
-		src: url('../fonts/fontsbrankovic-webfont.eot');
-		src: url('../fonts/brankovic-webfont.eot?#iefix') format('embedded-opentype'),
-			 url('../fonts/brankovic-webfont.woff') format('woff'),
-			 url('../fonts/brankovic-webfont.ttf') format('truetype'),
-			 url('../fonts/brankovic-webfont.svg#brankovicregular') format('sv');
-	}
-	
-	
-	 @font-face {
-		font-family: 'ClearSans-Regular';
-		src: url('../fonts/ClearSans-Regular.eot');
-		src: url('../fonts/ClearSans-Regular.woff') format('woff'),
-         	 url('../fonts/ClearSans-Regular.ttf') format('truetype');
-	}
-	
-	@font-face {
-		font-family: 'Vonique';
-		src: url('../fonts/Vonique 64.ttf') format('truetype');
-	}
-	
-	@font-face {
-		font-family: 'RECHTMAN';
-		src: url('../fonts/RECHTMAN.ttf') format('truetype');
-	}
-	
-	@font-face {
-		font-family: 'Amperzand';
-		src: url('../fonts/Amperzand.ttf') format('truetype');
-	}
-	
-	@font-face {
-		font-family: 'Calligraffiti';
-		src: url('../fonts/Calligraffiti.ttf') format('truetype');
-	}
-	
-	/* --------------------------------------
-	Wine Introduction Panel - Tabs
-	-------------------------------------- */
-		.panel{
-		  padding: 15px;
-		  margin-top:20px;
-		  margin-bottom: 20px;
-		  background-color: #fff;
-		  border: 1px solid #ddd;
-		  border-radius: 4px;
-		  opacity: 0.85;
-		  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-		  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-		  -webkit-transition: all 0.5s;
-		}
-		
-		.panel {
-			-webkit-filter: grayscale(100%);
-		}
-	
-		.panel:hover {
-			padding: 15px;
-			margin-top:20px;
-			margin-bottom: 20px;
-			background-color: #fff;
-			border: 1px solid #ddd;
-			border-radius: 4px;
-			opacity:1;
-			box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-			-webkit-filter: none;
-		}
-	
-		.features {
-			text-align: center;	
-			font-weight: bold;
-			line-height: 28px; 
-			letter-spacing: 1px; 
-			margin-top: 12px; 
-			font-family: Palatino, serif;   
-			text-align: center; 
-			font-weight: normal; 
-		}
-		
-		.features .panel-title {
-			margin-top: 0;
-			margin-bottom: 0;
-			font-weight: bold;
-			color: black;
-		}
-			 
-		.features p{
-			font-size:19px;
-			text-decoration: none; 
-		}
-		
-		.feature #tab1{
-			color:black;
-		}
-		
-		.feature #tab2{
-			color:#AA041C;
-		}
-		
-		.feature #tab3{
-			color:#4A6331;
-		}
-			
-		.features img {
-			margin: -15px 5px 0 5px;
-		}
-	
-	/* --------------------------------------
-				Menu
-	-------------------------------------- */
-		.dropdown-menu {
-		  position: absolute;
-		  top: 100%;
-		  left: 0;
-		  z-index: 1000;
-		  display: none;
-		  float: left;
-		  min-width: 160px;
-		  padding: 5px 0;
-		  margin: 2px 0 0;
-		  list-style: none;
-		  background-color: #481815;
-		  border: 1px solid #ccc;
-		  border: 1px solid rgba(0,0,0,0.15);
-		  border-radius: 4px;
-		  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-		  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-		  background-clip: padding-box;
-		}
-	
-		.dropdown-menu>li>a {
-		  display: block;
-		  padding: 3px 20px;
-		  clear: both;
-		  font-weight: 600;
-		
-		  line-height: 1.428571429;
-		  color: #DBD4CA;
-		  white-space: nowrap;
-		}
-		
-		.dropdown-header {
-		  display: block;
-		  padding: 3px 20px;
-		
-		  line-height: 1.428571429;
-		  color: #9E643C;
-		  font-weight: 800;
-		}
-		
-		a {
-		  color: #F2B85A;
-		  text-decoration: none;
-		}
-		
-		a:hover, a:focus {
-		  color: #EBC5CA;
-		  text-decoration: none;
-		}
-	
-		/* --------------------------------------
-	   More Info
-	   -------------------------------------- */
-		#divFooter {
-		  	border-bottom-left-radius: 0px;
-		  	border-bottom-right-radius: 0px;
-		  	background-color: rgb(122, 12, 12);
-		  	color: rgb(211, 211, 211);
-		  	font-family: Actor, sans-serif;
-		  	text-transform: none;
-		 
-		  	letter-spacing: 0px;
-		  	line-height: 22px;
-		  	background-image: url(tactile_noise.png);
-		  	background-repeat: repeat repeat;
-		}
-	
-	   
-	   #moreinfo{
-		 	padding: 32px 0px 30px 0px;
-			margin-top: 50px;
-	  		margin-bottom: 10px;
-			margin-left: 20px;
-	  		margin-right: 20px;
-			opacity: 1;
-	  		background: url(../../images/cont_bg.png) 0 0 repeat; 
-	   }
-	   
-	   #contact-form{
-			padding: 32px 80px 30px;
-			margin-top: 80px;
-	  		margin-bottom: 10px;
-			margin-left: 20px;
-	  		margin-right: 20px;
-			opacity: 0.85;
-	  		background: url(../../images/cont_bg.png) 0 0 repeat; 
-	   }
-	   
-	   #contact-form h3 {
-			text-align:center;
-			font-weight:600;
-			font-family: ClearSans-Regular;
-	   	}
-	   
-		#moreinfo h3{
-			text-align:center;
-			font-weight:600;
-			font-family: ClearSans-Regular;
-		}
-		
-		.tabbable ul{
-			font-family: ClearSans-Regular;
-			font-size:15px;
-		}
-		
-		.tab-content .text p{
-			text-align:center;
-			
-			font-weight: 600;
-			letter-spacing: 0.1px;
-			padding: 0 0 10px 10px;
-			color: rgb(158, 46, 38);	
-		} 
-		
-		.tab-content #tab1 h1{
-			color: rgb(10, 9, 7);
-			font-family: ClearSans-Regular;
-			font-size: 25px;
-		}
-		
-		.tab-content #tab2 h1{
-			color: rgb(112, 1, 8);
-			font-family: ClearSans-Regular;
-			font-size: 25px;
-		}
-		
-		.tab-content #tab3 h1{
-			color: rgb(26, 96, 34);
-			font-family: ClearSans-Regular;
-			font-size: 25px;
-		}
-
 /* --------------------------------------
    Introduction Box
    -------------------------------------- */
@@ -481,16 +238,6 @@ contact.htmlmedia="all"
 	.well .text1{
 		color:black;
 	}
-	
-	/*.well .page-header{
-		letter-spacing: 1.5px;  
-		margin-top:0px;
-		margin-bottom: 20px;
-		font-family: 'Book Antiqua', Palatino, serif;
-		font-weight: 700;
-		color: #BDAB59;
-		text-align: center; 
-	}*/
 	
 	.lead{ 
 		text-align: center;
@@ -572,6 +319,205 @@ contact.htmlmedia="all"
 		text-align:left;
 	}
 
+/* --------------------------------------
+  info
+   -------------------------------------- */
+	.nav>li>a {
+
+ 		line-height: 28px;
+	}
+	
+	.navbar-inverse {
+  		background: url(../../images/header_bg9.png) 0 0 repeat-x rgba(234, 232, 230, 0);
+		z-index: 999;
+	}
+
+/* --------------------------------------
+Wine Introduction Panel - Tabs
+-------------------------------------- */
+
+	.panel{
+		padding: 15px;
+		margin-top:20px;
+		margin-bottom: 20px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		opacity: 0.85;
+		-webkit-filter: grayscale(100%);
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+		box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+		-webkit-transition: all 0.5s;
+	}
+		
+	
+	.panel:hover {
+		padding: 15px;
+		margin-top:20px;
+		margin-bottom: 20px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		opacity:1;
+		box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+		-webkit-filter: none;
+	}
+	
+	.features {
+		text-align: center;	
+		font-weight: bold;
+		line-height: 28px; 
+		letter-spacing: 1px; 
+		margin-top: 12px; 
+		font-family: Palatino, serif;   
+		text-align: center; 
+		font-weight: normal; 
+	}
+		
+	.features .panel-title {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: bold;
+		color: black;
+	}
+			 
+	.features p{
+		font-size:19px;
+		text-decoration: none; 
+	}
+	
+		
+	.feature #tab1{
+		color:black;
+	}
+		
+	.feature #tab2{
+		color:#AA041C;
+	}
+		
+	.feature #tab3{
+		color:#4A6331;
+	}
+			
+	.features img {
+		margin: -15px 5px 0 5px;
+	}
+	
+/* --------------------------------------
+	Menu Toolbar
+-------------------------------------- */
+	.dropdown-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 5px 0;
+		margin: 2px 0 0;
+		list-style: none;
+		background-color: #481815;
+		border: 1px solid #ccc;
+		border: 1px solid rgba(0,0,0,0.15);
+		border-radius: 4px;
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+		box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+		background-clip: padding-box;
+	}
+	
+	.dropdown-menu>li>a {
+		display: block;
+		padding: 3px 20px;
+		clear: both;
+		font-weight: 600;
+		line-height: 1.428571429;
+		color: #DBD4CA;
+		white-space: nowrap;
+	}
+		
+	.dropdown-header {
+		display: block;
+		padding: 3px 20px;
+		line-height: 1.428571429;
+		color: #9E643C;
+		font-weight: 800;
+	}
+		
+	a {
+		color: #F2B85A;
+		text-decoration: none;
+	}
+		
+	a:hover, a:focus {
+		color: #EBC5CA;
+		text-decoration: none;
+	}
+	
+/* --------------------------------------
+	 More Info
+-------------------------------------- */
+
+	#divFooter {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		background-color: rgb(122, 12, 12);
+		color: rgb(211, 211, 211);
+		font-family: Actor, sans-serif;
+		text-transform: none;
+		letter-spacing: 0px;
+		line-height: 22px;
+		background-image: url(tactile_noise.png);
+		background-repeat: repeat repeat;
+	}
+	
+	#moreinfo{
+		padding: 32px 0px 30px 0px;
+		margin-top: 50px;
+	  	margin-bottom: 10px;
+		margin-left: 20px;
+	  	margin-right: 20px;
+		opacity: 1;
+	  	background: url(../../images/cont_bg.png) 0 0 repeat; 
+	}
+	   
+	   
+	#moreinfo h3{
+		text-align:center;
+		font-weight:600;
+		font-family: ClearSans-Regular;
+	}
+		
+	.tabbable ul{
+		font-family: ClearSans-Regular;
+		font-size:15px;
+	}
+		
+	.tab-content .text p{
+		text-align:center;
+		font-weight: 600;
+		letter-spacing: 0.1px;
+		padding: 0 0 10px 10px;
+		color: rgb(158, 46, 38);	
+	} 
+		
+	.tab-content #tab1 h1{
+		color: rgb(10, 9, 7);
+		font-family: ClearSans-Regular;
+		font-size: 25px;
+	}
+		
+	.tab-content #tab2 h1{
+		color: rgb(112, 1, 8);
+		font-family: ClearSans-Regular;
+		font-size: 25px;
+	}
+		
+	.tab-content #tab3 h1{
+		color: rgb(26, 96, 34);
+		font-family: ClearSans-Regular;
+		font-size: 25px;
+	}
 
 /* --------------------------------------
    Navbar
